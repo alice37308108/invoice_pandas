@@ -1,3 +1,9 @@
+## やりたいこと
+Excelの取引先一覧シートにこのようなデータがあります。
+![](C:\my_python\invoice_pandas\img\company.png)
+ここに登録されている取引先についてWeb-APIを使用して、インボイス登録事業者として登録されていたら、登録番号等をExcelに出力します。
+![](C:\my_python\invoice_pandas\img\invoice.png)
+
 ## 動作の流れ
 * Excelの取引先一覧シートにあるデータをPandasデータフレームとして取得
 * 日本郵便から最新の郵便番号をダウンロードして郵便番号と市区町村コードが入ったデータフレームを作成
