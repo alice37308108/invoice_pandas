@@ -2,8 +2,8 @@
 Excelの取引先一覧シートにこのようなデータがあります。
 ![company](img/company.png)  
 
-ここに登録されている取引先についてWeb-APIを使用して、インボイス登録事業者として登録されていたら、登録番号等をExcelに出力します。
-![invoice](img/invoice.png)
+登録されている取引先についてWeb-APIを使用して、インボイス登録事業者として登録されていたら、登録番号等をExcelに出力します。
+![invoice](img/invoice.png)  
 
 ## 動作の流れ
 * Excelの取引先一覧シートにあるデータをPandasデータフレームとして取得
