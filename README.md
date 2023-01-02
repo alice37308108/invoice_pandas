@@ -1,8 +1,8 @@
 ## やりたいこと
 Excelの取引先一覧シートにこのようなデータがあります。
-![](C:\my_python\invoice_pandas\img\company.png)
+![company](img/company.png)
 ここに登録されている取引先についてWeb-APIを使用して、インボイス登録事業者として登録されていたら、登録番号等をExcelに出力します。
-![](C:\my_python\invoice_pandas\img\invoice.png)
+![invoice](img/invoice.png)
 
 ## 動作の流れ
 * Excelの取引先一覧シートにあるデータをPandasデータフレームとして取得
